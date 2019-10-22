@@ -1,0 +1,65 @@
+#top-section {
+    background: @theme-bg;
+    .sectionStyle(100%, 700px);
+    margin: 5px;
+    padding-top: 40px;
+    background-size: cover;
+
+    .top-container {
+        margin: 35px 0px 0px 150px;
+        background: #fff;
+        border-radius: 31px;
+        padding: 100px;
+        
+        height: 584px;
+        width: 1154px;
+        .displayFlex();
+
+
+        h1 {
+            color: @font-color;
+            margin-right: 50%;
+            width: 700px;
+            height: 65px;
+            font-size: 50px;
+        }
+
+        .top-items {
+            height: 500px;
+            width: 500px;
+
+            h3 {
+                font-size: 35px;
+                color: @font-color;
+            }
+
+            p {
+                margin-top: 20px;
+                width: 518.63px;
+                height: 64px;
+                font-size: 24px;
+                line-height: 32px;
+                color: #1A051D;
+            }
+
+           .top-buttons {
+               display: flex;
+                
+
+                 .btn1 {
+                    .signUp();
+                    color: @font-color;
+                    margin-top: 100px;
+                 }
+
+                 .btn2 {
+                     .signUp();
+                     color: #fff;
+                     background: @font-color;
+                     margin-top: 100px;
+                 }
+
+           }
+        }
+    }
+}
