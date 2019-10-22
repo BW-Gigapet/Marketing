@@ -349,3 +349,55 @@ header .nav-button {
   color: #247CAD;
   text-align: center;
 }
+#feature-section {
+  width: 100%;
+  height: auto;
+  background: #F6F6F6;
+}
+#feature-section h2 {
+  font-size: 100px;
+  font-weight: bold;
+  margin: 20px;
+  padding: 30px;
+  padding-left: 425px;
+}
+#feature-section .feature-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+#feature-section .featurettes {
+  margin: 50px;
+  padding: 30px;
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  box-shadow: 0 10px 6px -6px black;
+  text-align: center;
+  border-radius: 10px;
+}
+#feature-section h4 {
+  font-weight: 600;
+  font-size: 36px;
+  color: #247CAD;
+}
+#feature-section p {
+  font-size: 16px;
+  padding: 20px;
+}
+#feature-section .veggies {
+  width: 325px;
+  height: 66px;
+  background: #EBF9EF;
+}
+#feature-section .breakdowns {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+#feature-section .share {
+  display: flex;
+  justify-content: space-evenly;
+}
+#feature-section .share .vector {
+  width: 50px;
+  height: 50px;
+}

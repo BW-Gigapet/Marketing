@@ -8,7 +8,7 @@
 
     .top-container {
         margin: 35px 0px 0px 150px;
-        background: #fff;
+        background: @secondary-bg;
         border-radius: 31px;
         padding: 100px;
         
@@ -57,7 +57,7 @@
 
                  .btn2 {
                      .signUp();
-                     color: #fff;
+                     color: @secondary-bg;
                      background: @font-color;
                      margin-top: 100px;
                      height: 40px;
@@ -68,6 +68,8 @@
         }
     }
 }
+
+//Gigapet Section
 #gigapet-section {
     background: @font-color;
     .sectionStyle(100%, 700px);
@@ -85,7 +87,7 @@
 
 
         h1 {
-            color: #fff;
+            color: @secondary-bg;
             margin-right: 50%;
             width: 700px;
             height: 65px;
@@ -107,7 +109,7 @@
                 height: 64px;
                 font-size: 24px;
                 line-height: 32px;
-                color: #fff;
+                color: @secondary-bg;
             }
 
             .giga-img {
@@ -121,7 +123,7 @@
                 height: 40px;
                  button {
                     .signUp();
-                    background: #fff;
+                    background: @secondary-bg;
                     height: 40px;
                     width: 150px;
                     a {
@@ -136,44 +138,53 @@
     }
 }
 
-//GigaPet Section
-// #gigapet-section {
-//     .sectionStyle(100%, 800px);
-//     background: @font-color;
-//     color: #fff;
-//     margin: 0;
-//     padding: 100px;
-//     height: 584px;
-//     display: flex;
-    
-    
-//     h3 {
-//         width: 590px;
-//         height: 98px;
-//         font-size: 36px;
-//     }
+//Feature Section
 
-//     p {
-//         width: 590px;
-//         height: 84px;
-//         font-size: 21px;
-//     }
+#feature-section {
+    .sectionStyle(100%, auto);
+    background: @theme-bg;
 
-//     .giga-img {
-//         width: 697px;
-//         height: 227px;
-//         padding-bottom: 0;
-//     }
-//  }
+    h2 {
+        .h2Style();
+        padding-left: 425px;
+    }
 
-   
+    .feature-container {
+        .displayFlex();
+    }
 
-//     .btn1 {
-//         .signUp();
-//         color: @font-color;
-//         margin-top: 100px;
-//     }
-// }
+    .featurettes {
+        .boxStyler();
 
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 36px;
+        color: @font-color;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .veggies {
+        width: 325px;
+        height: 66px;
+        background: #EBF9EF;
+    }
+    .breakdowns {
+        display: grid;
+        grid-template-columns: 50% 50%
+    }
+    .share {
+        .displayFlex();
+        .vector {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
         
 
