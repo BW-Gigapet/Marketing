@@ -1,0 +1,226 @@
+//Top Section
+#top-section {
+    background: @theme-bg;
+    .sectionStyle(100%, 700px);
+    margin: 5px;
+    padding-top: 40px;
+    background-size: cover;
+
+    .top-container {
+        margin: 35px 0px 0px 150px;
+        background: @secondary-bg;
+        border-radius: 31px;
+        padding: 100px;
+        height: 584px;
+        width: 1154px;
+        .displayFlex();
+
+        h1 {
+            color: @font-color;
+            margin-right: 50%;
+            width: 700px;
+            height: 65px;
+            font-size: 50px;
+        }
+
+        .top-items {
+            height: 500px;
+            width: 500px;
+
+            h3 {
+                font-size: 35px;
+                color: @font-color;
+            }
+
+            p {
+                margin-top: 20px;
+                width: 518.63px;
+                height: 64px;
+                font-size: 24px;
+                line-height: 32px;
+                color: #1A051D;
+            } 
+
+           .top-buttons {
+               display: flex;
+                
+
+                 .btn1 {
+                    .signUp();
+                    color: @font-color;
+                    margin-top: 100px;
+                    height: 40px;
+                    width: 150px;
+
+                    &:hover {
+                        color: @secondary-bg;
+                        background: @font-color;
+                    }
+                 }
+
+                 .btn2 {
+                     .signUp();
+                     color: @secondary-bg;
+                     background: @font-color;
+                     margin-top: 100px;
+                     height: 40px;
+                     width: 150px;
+
+                     &:hover {
+                         color: @font-color;
+                         background: @secondary-bg;
+                     }
+                 }
+           }
+        }
+    }
+}
+
+//Gigapet Section
+#gigapet-section {
+    background: @font-color;
+    .sectionStyle(100%, 700px);
+    margin: 5px;
+    padding-top: 40px;
+    background-size: cover;
+
+    @media @mobile {
+        height: auto;
+    }
+
+    .gigapet-container {
+        margin: 20px 0px 0px 200px;
+        padding: 100px;
+        height: 584px;
+        width: 88%;
+        display: flex;
+        justify-content: space-between;
+
+        @media @mobile {
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            margin: 25px;
+        }
+        h1 {
+            color: @secondary-bg;
+            margin-right: 50%;
+            width: 700px;
+            height: 65px;
+            font-size: 40px;
+
+            @media @mobile {
+                height: auto;
+                font-size: 30px;
+                text-align: center;
+                margin-right: 30px;
+                width: 90%;
+            }
+        }
+
+        .gigapet-items {
+            .sectionStyle(500px, 500px);
+
+            @media @mobile {
+                height: auto;
+                width: 100%;
+            }
+
+            h3 {
+                font-size: 35px;
+                color: @font-color;
+            }
+
+            p {
+                margin-top: 20px;
+                width: 518.63px;
+                height: 64px;
+                font-size: 24px;
+                line-height: 32px;
+                color: @secondary-bg;
+            }
+
+            .giga-img {
+                margin-top: 25px;
+                 width: 80%;
+                 height: 40%;
+            }
+
+           .gigapet-button {
+                margin: 100px 0 0 400px;
+                height: 40px;
+                 button {
+                    .signUp();
+                    background: @secondary-bg;
+                    height: 40px;
+                    width: 150px;
+                    a {
+                        text-decoration: none;
+                        color: @font-color;
+                        text-align: center;
+
+                        &:hover {
+                            border: 2px solid @secondary-bg;
+                            color: @secondary-bg;
+                            background: @font-color;
+                            width: 150px;
+                        }
+                    }
+                 }
+
+           }
+        }
+    }
+}
+
+//Feature Section
+
+#feature-section {
+    .sectionStyle(100%, auto);
+    background: @theme-bg;
+
+    h2 {
+        .h2Style();
+        padding-left: 425px;
+    }
+
+    .feature-container {
+        .displayFlex();
+    }
+
+    .featurettes {
+        .boxStyler();
+
+    }
+
+    h4 {
+        font-weight: 600;
+        font-size: 36px;
+        color: @font-color;
+    }
+
+    p {
+        font-size: 16px;
+        padding: 20px;
+    }
+
+    .veggies {
+        width: 325px;
+        height: 66px;
+        background: #EBF9EF;
+    }
+    .breakdowns {
+        display: grid;
+        grid-template-columns: 50% 50%
+    }
+    .share {
+        .displayFlex();
+        .vector {
+            width: 50px;
+            height: 50px;
+        }
+    }
+}
+        
+
