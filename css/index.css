@@ -213,13 +213,17 @@ header .nav-button {
   border: 2px solid #0066CC;
   color: #0066CC;
 }
+header .nav-button:hover {
+  background: #247CAD;
+  color: #fff;
+}
 .footer {
   background-color: #F6F6F6;
   color: rgba(0, 0, 0, 0.8);
   height: 400px;
   position: relative;
 }
-@media (max-width: 1024px) {
+@media (max-width: 500px) {
   .footer {
     height: auto;
   }
@@ -228,7 +232,7 @@ header .nav-button {
   height: 350px;
   display: flex;
 }
-@media (max-width: 1024px) {
+@media (max-width: 500px) {
   .footer .footer-content {
     flex-wrap: wrap;
     height: 800px;
@@ -297,7 +301,7 @@ header .nav-button {
   color: #247CAD;
   font-size: 25px;
 }
-@media (max-width: 1024px) {
+@media (max-width: 500px) {
   .footer .footer-bottom {
     width: 90%;
     height: 100px;
@@ -368,6 +372,10 @@ header .nav-button {
   height: 40px;
   width: 150px;
 }
+#top-section .top-container .top-items .top-buttons .btn1:hover {
+  color: #fff;
+  background: #247CAD;
+}
 #top-section .top-container .top-items .top-buttons .btn2 {
   margin: 20px;
   padding-top: 10px;
@@ -382,6 +390,10 @@ header .nav-button {
   height: 40px;
   width: 150px;
 }
+#top-section .top-container .top-items .top-buttons .btn2:hover {
+  color: #247CAD;
+  background: #fff;
+}
 #gigapet-section {
   background: #247CAD;
   width: 100%;
@@ -389,6 +401,11 @@ header .nav-button {
   margin: 5px;
   padding-top: 40px;
   background-size: cover;
+}
+@media (max-width: 500px) {
+  #gigapet-section {
+    height: auto;
+  }
 }
 #gigapet-section .gigapet-container {
   margin: 20px 0px 0px 200px;
@@ -398,6 +415,15 @@ header .nav-button {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  #gigapet-section .gigapet-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 25px;
+  }
+}
 #gigapet-section .gigapet-container h1 {
   color: #fff;
   margin-right: 50%;
@@ -405,9 +431,24 @@ header .nav-button {
   height: 65px;
   font-size: 40px;
 }
+@media (max-width: 500px) {
+  #gigapet-section .gigapet-container h1 {
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+    width: 90%;
+  }
+}
 #gigapet-section .gigapet-container .gigapet-items {
-  height: 500px;
   width: 500px;
+  height: 500px;
+}
+@media (max-width: 500px) {
+  #gigapet-section .gigapet-container .gigapet-items {
+    height: auto;
+    width: 100%;
+  }
 }
 #gigapet-section .gigapet-container .gigapet-items h3 {
   font-size: 35px;
@@ -446,6 +487,12 @@ header .nav-button {
   text-decoration: none;
   color: #247CAD;
   text-align: center;
+}
+#gigapet-section .gigapet-container .gigapet-items .gigapet-button button a:hover {
+  border: 2px solid #fff;
+  color: #fff;
+  background: #247CAD;
+  width: 150px;
 }
 #feature-section {
   width: 100%;
@@ -497,6 +544,70 @@ header .nav-button {
 #feature-section .share .vector {
   width: 50px;
   height: 50px;
+}
+@media (max-width: 500px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 500px) {
+  .logo {
+    position: relative;
+  }
+}
+@media (max-width: 500px) {
+  .nav-button {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  #top-section {
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  #top-section .top-container {
+    margin-left: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 500px) {
+  #top-section .top-container h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 500px) {
+  #top-section .top-container .top-items {
+    height: auto;
+    width: 100%;
+    text-align: left;
+  }
+}
+@media (max-width: 500px) {
+  #top-section .top-container .top-items h3 {
+    font-size: 25px;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #top-section .top-container .top-items p {
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+}
+@media (max-width: 500px) {
+  #top-section .top-container .top-items .bunny-img {
+    display: none;
+  }
 }
 #a-top-section {
   background: #247CAD;
