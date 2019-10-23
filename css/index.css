@@ -498,3 +498,74 @@ header .nav-button {
   width: 50px;
   height: 50px;
 }
+#a-top-section {
+  background: #247CAD;
+  width: 100%;
+  height: auto;
+  margin: 5px;
+  padding-top: 40px;
+  background-size: cover;
+}
+#a-top-section .a-top-container {
+  margin: 35px 0px 0px 150px;
+  background: #fff;
+  border-radius: 31px;
+  padding: 100px;
+  height: 584px;
+  width: 1154px;
+  display: flex;
+  justify-content: space-evenly;
+}
+#a-top-section .a-top-container h1 {
+  color: #247CAD;
+  margin-right: 50%;
+  width: 700px;
+  height: 65px;
+  font-size: 50px;
+}
+#a-top-section .a-top-container .a-top-items {
+  height: 500px;
+  width: 500px;
+}
+#a-top-section .a-top-container .a-top-items h3 {
+  font-size: 35px;
+  color: #247CAD;
+}
+#a-top-section .a-top-container .a-top-items p {
+  margin-top: 20px;
+  width: 518.63px;
+  height: 64px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #1A051D;
+}
+#a-top-section .a-top-container .a-top-items .a-top-buttons {
+  display: flex;
+}
+#a-top-section .a-top-container .a-top-items .a-top-buttons .a-btn1 {
+  margin: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #247CAD;
+  border-radius: 11px;
+  color: #247CAD;
+  margin-top: 100px;
+  height: 40px;
+  width: 150px;
+}
+#a-top-section .a-top-container .a-top-items .a-top-buttons .a-btn2 {
+  margin: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  border: 2px solid #247CAD;
+  border-radius: 11px;
+  color: #fff;
+  background: #247CAD;
+  margin-top: 100px;
+  height: 40px;
+  width: 150px;
+}
