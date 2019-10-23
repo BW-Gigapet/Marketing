@@ -507,12 +507,13 @@ header .nav-button {
   background-size: cover;
 }
 #a-top-section .a-top-container {
+  width: 1154px;
+  height: auto;
   margin: 35px 0px 0px 150px;
   background: #fff;
-  border-radius: 31px;
+  border-top-left-radius: 31px;
+  border-top-right-radius: 31px;
   padding: 100px;
-  height: 1200px;
-  width: 1154px;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
@@ -570,51 +571,22 @@ header .nav-button {
   height: 40px;
   width: 150px;
 }
-#team-section {
-  width: 100%;
-  height: auto;
-  background: #247CAD;
-}
-#team-section h2 {
-  font-size: 100px;
-  font-weight: bold;
-  margin: 20px;
-  padding: 30px;
-  padding-left: 350px;
-}
-@media (max-width: 1024px) {
-  #team-section h2 {
-    font-size: 50px;
-    padding-left: 20px;
-  }
-}
-#team-section .team-container {
-  margin: 0 0px 0px 150px;
-  background: #fff;
-  width: 1154px;
-  height: auto;
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-}
-#team-section .team-container .team-members {
-  position: relative;
-  width: 350px;
-  margin: 50px;
-  background: #247CAD;
+#a-top-section .team-members {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
   padding: 20px;
   text-align: center;
 }
-#team-section .team-container p {
+#a-top-section .team-members p {
   font-size: 17px;
 }
-#team-section .team-container img {
-  width: 150px;
-  height: 150px;
+#a-top-section .team-members .cohort {
+  width: 200px;
+  height: 200px;
   margin: 20px;
-  border-radius: 50%;
 }
-#team-section .team-container a {
+#a-top-section .team-members a {
   font-size: 20px;
   color: #247CAD;
   text-decoration: none;
