@@ -223,7 +223,7 @@ header .nav-button:hover {
   height: 400px;
   position: relative;
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .footer {
     height: auto;
   }
@@ -232,7 +232,7 @@ header .nav-button:hover {
   height: 350px;
   display: flex;
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .footer .footer-content {
     flex-wrap: wrap;
     height: 800px;
@@ -301,9 +301,9 @@ header .nav-button:hover {
   color: #247CAD;
   font-size: 25px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .footer .footer-bottom {
-    width: 90%;
+    width: 100%;
     height: 100px;
     text-align: center;
   }
@@ -402,11 +402,6 @@ header .nav-button:hover {
   padding-top: 40px;
   background-size: cover;
 }
-@media (max-width: 500px) {
-  #gigapet-section {
-    height: auto;
-  }
-}
 #gigapet-section .gigapet-container {
   margin: 20px 0px 0px 200px;
   padding: 100px;
@@ -415,15 +410,6 @@ header .nav-button:hover {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
-  #gigapet-section .gigapet-container {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    height: auto;
-    margin: 25px;
-  }
-}
 #gigapet-section .gigapet-container h1 {
   color: #fff;
   margin-right: 50%;
@@ -431,24 +417,9 @@ header .nav-button:hover {
   height: 65px;
   font-size: 40px;
 }
-@media (max-width: 500px) {
-  #gigapet-section .gigapet-container h1 {
-    height: auto;
-    font-size: 30px;
-    text-align: center;
-    margin-right: 30px;
-    width: 90%;
-  }
-}
 #gigapet-section .gigapet-container .gigapet-items {
   width: 500px;
   height: 500px;
-}
-@media (max-width: 500px) {
-  #gigapet-section .gigapet-container .gigapet-items {
-    height: auto;
-    width: 100%;
-  }
 }
 #gigapet-section .gigapet-container .gigapet-items h3 {
   font-size: 35px;
@@ -510,6 +481,12 @@ header .nav-button:hover {
   display: flex;
   justify-content: space-evenly;
 }
+@media (max-width: 1024px) {
+  #feature-section .feature-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #feature-section .featurettes {
   margin: 50px;
   padding: 30px;
@@ -545,28 +522,28 @@ header .nav-button:hover {
   width: 50px;
   height: 50px;
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   header {
     flex-direction: column;
     align-items: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .logo {
     position: relative;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .nav-button {
     display: none;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section {
     height: auto;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section .top-container {
     margin-left: 0;
     text-align: center;
@@ -574,7 +551,7 @@ header .nav-button:hover {
     height: auto;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section .top-container h1 {
     text-align: center;
     width: 100%;
@@ -582,14 +559,14 @@ header .nav-button:hover {
     margin-bottom: 15px;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section .top-container .top-items {
     height: auto;
     width: 100%;
     text-align: left;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section .top-container .top-items h3 {
     font-size: 25px;
     line-height: 1.5;
@@ -597,16 +574,76 @@ header .nav-button:hover {
     text-align: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section .top-container .top-items p {
     width: 100%;
     height: auto;
     text-align: center;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   #top-section .top-container .top-items .bunny-img {
     display: none;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section {
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    margin: 25px;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container h1 {
+    height: auto;
+    font-size: 30px;
+    text-align: center;
+    margin-right: 30px;
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container .gigapet-items {
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container .gigapet-items p {
+    margin-bottom: 90px;
+    font-size: 18px;
+    width: 90%;
+    text-align: center;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container .gigapet-items p .giga-img {
+    width: 100%;
+    height: auto;
+    margin-top: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container .gigapet-items p .gigapet-button {
+    margin: 10px 0 10px 30px;
+  }
+}
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container .phone-img {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .feature-container {
+    flex-direction: column;
+    align-items: center;
   }
 }
 #a-top-section {
