@@ -666,12 +666,25 @@ header .nav-button:hover {
   justify-content: space-evenly;
   flex-wrap: wrap;
 }
+@media (max-width: 1024px) {
+  #a-top-section .a-top-container {
+    width: 100%;
+    margin: 0;
+  }
+}
 #a-top-section .a-top-container h1 {
   color: #247CAD;
   margin-right: 50%;
   width: 700px;
   height: 65px;
   font-size: 50px;
+}
+@media (max-width: 1024px) {
+  #a-top-section .a-top-container h1 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+  }
 }
 #a-top-section .a-top-container .a-top-items {
   height: 500px;
@@ -681,6 +694,13 @@ header .nav-button:hover {
   font-size: 35px;
   color: #247CAD;
 }
+@media (max-width: 1024px) {
+  #a-top-section .a-top-container .a-top-items h3 {
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+  }
+}
 #a-top-section .a-top-container .a-top-items p {
   margin-top: 20px;
   width: 518.63px;
@@ -688,6 +708,14 @@ header .nav-button:hover {
   font-size: 24px;
   line-height: 32px;
   color: #1A051D;
+}
+@media (max-width: 1024px) {
+  #a-top-section .a-top-container .a-top-items p {
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 0;
+  }
 }
 #a-top-section .a-top-container .a-top-items .a-top-buttons {
   display: flex;

@@ -16,6 +16,11 @@
         .displayFlex();
         flex-wrap: wrap;
 
+        @media @mobile {
+            width: 100%;
+            margin: 0;
+        }
+
 
         h1 {
             color: @font-color;
@@ -23,6 +28,12 @@
             width: 700px;
             height: 65px;
             font-size: 50px;
+
+            @media @mobile {
+                font-size: 40px;
+                text-align: center;
+                width: 100%;
+            }
         }
 
         .a-top-items {
@@ -32,6 +43,12 @@
             h3 {
                 font-size: 35px;
                 color: @font-color;
+
+                 @media @mobile {
+                     font-size: 25px;
+                     text-align: center;
+                     width: 100%;
+                 }
             }
 
             p {
@@ -41,6 +58,13 @@
                 font-size: 24px;
                 line-height: 32px;
                 color: #1A051D;
+
+                 @media @mobile {
+                     font-size: 20px;
+                     text-align: center;
+                     width: 100%;
+                     margin-bottom: 0;
+                 }
             }
 
             .a-top-buttons {
