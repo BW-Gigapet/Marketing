@@ -465,6 +465,11 @@ header .nav-button:hover {
   background: #247CAD;
   width: 150px;
 }
+@media (max-width: 1024px) {
+  #gigapet-section .gigapet-container .gigapet-items .gigapet-button {
+    margin: 10px 0 10px 30px;
+  }
+}
 #feature-section {
   width: 100%;
   height: auto;
@@ -628,11 +633,6 @@ header .nav-button:hover {
     width: 100%;
     height: auto;
     margin-top: 40px;
-  }
-}
-@media (max-width: 1024px) {
-  #gigapet-section .gigapet-container .gigapet-items p .gigapet-button {
-    margin: 10px 0 10px 30px;
   }
 }
 @media (max-width: 1024px) {
